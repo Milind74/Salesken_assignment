@@ -8,20 +8,23 @@
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
 
 </head>
-<body onload="main()">
+<body>
     <div id="container">          
-          <canvas id="canvas1">
-           
-          </canvas>
-          <audio src="./audio/Jai_Ho.mp3"  id="myaudio">
-            <!-- HTML5 audio not supported -->
-          </audio>
-        <p>
-            <div id="play" onclick="playAudio();" disabled>
-                play
+        <canvas class="canvasCont"> </canvas>
+
+         
+    
+          <div class="controls">
+            <div class="playBtn">
+              Play
             </div>
-        </p>
+          </div>
+       
     </div>
+
+    <audio>
+        <source src="./audio/Jai_Ho.mp3" type="audio/mpeg" />
+      </audio>
 
     <script type="text/javascript" src="./script/script.js">
         
