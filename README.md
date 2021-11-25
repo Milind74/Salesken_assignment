@@ -28,9 +28,7 @@
 <p>CSS</p>
 <p>Javascript</p>
 
-<p>image of music Application</p>
 
-<img src="./photot/musicimage.png" height="500px" width="800px" alt="">
 
 
     
