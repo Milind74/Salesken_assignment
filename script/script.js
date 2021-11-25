@@ -72,7 +72,7 @@ const setTimelineValue = () => {
   }
   graphData.forEach((el, i) => {
     if (currentTime >= i) {
-      context.fillStyle = "rgb(58 201 235)";
+      context.fillStyle = "red";
     } else {
       context.fillStyle = "#fff";
     }

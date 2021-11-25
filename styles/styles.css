@@ -30,15 +30,15 @@ body {
   .playBtn {
     width: 100px;
     height: 60px;
-    border: 2px solid rgb(58 201 235);
+    border: 2px solid rgb(172, 22, 202);
     border-radius: 30px;
     display: flex;
     align-items: center;
     cursor: pointer;
     justify-content: center;
     font-weight: 600;
-    color: rgb(58 201 235);
-    box-shadow: 0px 4px 10px rgb(58 201 235);
+    color: rgb(172, 22, 202);
+    box-shadow: 0px 4px 10px rgb(172, 22, 202)
   }
 
 /* For canvas container */
@@ -56,7 +56,7 @@ body {
 
 
   
-/* For static tags in graph  */
+/* For graph  */
 .Tags {
     position: absolute;
     width: 120px;
@@ -164,9 +164,7 @@ body {
   
 
   @media screen and (max-width: 650px) {
-   /* body{
-       background-color: blue;
-   } */
+   
     .Tags {
         display: none;   
     }
