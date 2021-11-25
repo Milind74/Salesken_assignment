@@ -64,7 +64,7 @@ graphData.forEach((el) => {
 });
 
 
-//Function for set current audio time to bar graph
+//Function to set current audio time to bar graph
 const setTimelineValue = () => {
   let currentTime = Math.floor(audio.currentTime);
   if (currentTime == Math.floor(audio.duration)) {
@@ -80,13 +80,14 @@ const setTimelineValue = () => {
   });
 };
 
-//Event listener for getting current time of playing audio
+
+//Event listener accessing current time of playing audio
 audio.addEventListener("timeupdate", setTimelineValue);
 
 
 
 
-//Function for get target graph value to set audio current time
+//Function to target graph value to set audio current time
 const getGraphValue = (e) => {
   let val = e.pageX - canvasLeft;
   graphData.forEach((el, i) => {
