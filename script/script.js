@@ -85,3 +85,16 @@ audio.addEventListener("timeupdate", setTimelineValue);
 
 
 
+
+//Function for get target graph value to set audio current time
+const getGraphValue = (e) => {
+  let val = e.pageX - canvasLeft;
+  graphData.forEach((el, i) => {
+    if (val >= el.left * 4 && val <= el.left * 4 + 21) {
+      audio.currentTime = i;
+    }
+  });
+};
+
+//Event listener for getting graph value
+canvas.addEventListener("click", getGraphValue);
