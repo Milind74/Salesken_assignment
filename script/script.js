@@ -19,6 +19,7 @@ const togglePlay = () => {
       isAudioPlay = true;
       playBtn.innerHTML = `Play`;
     }
+    
   };
 
   
